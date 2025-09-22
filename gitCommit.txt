@@ -1,0 +1,28 @@
+//Repositorio GitHub
+--------------------------------------------------------------------------------
+
+git init
+
+git remote add origin https://github.com/n1kko-source/alpha_omega.git
+
+-------------------- Verificación de que se agregó -----------------------------
+
+git remote -v
+
+-------------------- Agregar todos los Archivos --------------------------------
+
+git add .
+
+-------------------- Hacer el primer Commit ------------------------------------
+
+git commit -m "Initial commit - upload project"
+
+-------------------- Asegurarse de estar en el Main ----------------------------
+
+git branch -M main
+
+---------------------------- Push ----------------------------------------------
+
+git push -u origin main
+
+git push -u origin main --force
