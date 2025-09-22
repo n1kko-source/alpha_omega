@@ -27,12 +27,12 @@ const Hero = () => {
           </div>
 
           {/* Awards/Recognition */}
-          <div className="flex flex-wrap justify-center items-center gap-8 mb-20 font-mono">
-            <div className="flex items-center space-x-2 text-yellow-300">
+          <div className="flex flex-wrap justify-center items-center gap-8 mb-20">
+            <div className="flex items-center space-x-2 text-yellow-300 font-mono tracking-widest drop-shadow-[0_0_10px_rgba(0,255,255,0.7)]">
               <Award className="h-6 w-6" />
               <span className="text-gray-200">Film Festival</span>
             </div>
-            <div className="flex items-center space-x-2 text-purple-400">
+            <div className="flex items-center space-x-2 text-purple-400 font-mono tracking-widest drop-shadow-[0_0_10px_rgba(0,255,255,0.7)]">
               <Calendar className="h-5 w-5" />
               <span className="text-gray-200">2025 Release</span>
             </div>

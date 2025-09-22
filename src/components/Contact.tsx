@@ -1,11 +1,11 @@
-import { Mail, Phone, MapPin, Instagram, Twitter, Film } from 'lucide-react';
+import { Film, Instagram, Mail, MapPin, Phone, Twitter } from 'lucide-react';
 
 const Contact = () => {
   return (
     <section id="contact" className="py-20 border-t border-purple-900/30">
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         <div className="max-w-4xl mx-auto text-center mb-16">
-          <h2 className="text-4xl md:text-5xl font-bold bg-gradient-to-r from-yellow-600 to-yellow-400 bg-clip-text text-transparent mb-6">
+          <h2 className="font-mono text-3xl md:text-5xl font-bold bg-gradient-to-r from-yellow-600 to-yellow-400 bg-clip-text text-transparent mb-6 tracking-widest drop-shadow-[0_0_10px_rgba(0,255,255,0.7)]">
             Contact With Us
           </h2>
           <p className="text-xl text-gray-300">

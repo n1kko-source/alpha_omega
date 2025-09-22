@@ -9,10 +9,10 @@ const TrailerSection = () => {
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         {/* Section Header */}
         <div className="text-center mb-16">
-          <h2 className="text-4xl md:text-5xl font-bold bg-gradient-to-r from-yellow-600 to-yellow-400 bg-clip-text text-transparent mb-6 tracking-widest drop-shadow-[0_0_10px_rgba(0,255,255,0.7)]">
+          <h2 className="font-mono text-3xl md:text-5xl font-bold bg-gradient-to-r from-yellow-600 to-yellow-400 bg-clip-text text-transparent mb-6 tracking-widest drop-shadow-[0_0_10px_rgba(0,255,255,0.7)]">
             Official Trailer 
           </h2>
-          <p className="text-xl text-gray-300 max-w-2xl mx-auto">
+          <p className="text-xl text-gray-300 max-w-2xl mx-auto tracking-wide leading-relaxed italic">
             Immerse yourself in the darkness and terror of Alpha & Omega in this exclusive trailer.
           </p>
         </div>
